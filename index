@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Downloader</title>
+    <style>
+        /* CSS for Centering and Styling */
+        body {
+            /* Full screen container */
+            height: 100vh;
+            margin: 0;
+            background-color: #222; /* Dark background */
+            font-family: Arial, sans-serif;
+
+            /* Flexbox to center content */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+        }
+
+        .minecraft-button {
+            /* Style the link to look like a button */
+            display: inline-block;
+            padding: 25px 50px;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none; /* Remove underline */
+            color: white;
+            background-color: #4CAF50; /* Minecraft Green */
+            border: 6px solid #388E3C; /* Darker Green Border */
+            border-radius: 12px;
+            box-shadow: 0 9px #1E4D20; /* Shadow for 3D effect */
+            transition: all 0.15s ease;
+        }
+
+        .minecraft-button:hover {
+            background-color: #5CB860;
+        }
+
+        .minecraft-button:active {
+            /* Pressed effect */
+            box-shadow: 0 5px #1E4D20;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+<body>
+    <a 
+        href="Eaglercraft_1.12_Offline_en_US.html" 
+        download="Eaglercraft_Installer.html" 
+        class="minecraft-button"
+    >
+        MINECRAFT
+    </a>
+</body>
+</html>
